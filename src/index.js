@@ -39,8 +39,6 @@ const app = {
     listeningElement.setAttribute('style', 'display:none;');
     receivedElement.setAttribute('style', 'display:block;');
 
-    alert();
-
     console.log('Received Event: ' + id);
   }
 };
